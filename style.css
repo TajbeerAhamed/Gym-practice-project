@@ -9,11 +9,17 @@ body {
     background-color: black;
     color: white;
     padding: 5px;
+}
+
+#change-font {
+    font-weight: bold;
+    font-size: 70px;
 
 }
 
 .company-logo {
     font-size: 30px;
+
 
 
 }
@@ -26,10 +32,11 @@ body {
     list-style: none;
     padding: 15px;
     margin: 5px;
+    font-size: larger;
 }
 
 .menu-item li:hover {
-    color: blueviolet;
+    color: red;
     cursor: pointer;
 }
 
@@ -93,17 +100,161 @@ body {
 .card-1:hover {
     border: 1px solid rgb(236, 20, 20);
     transition: .8ms;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .look-section {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding: 10px 20px;
+}
+
+.look-about {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
 }
 
 .gym-icon {
     width: 50px;
     padding-top: 20px;
+}
+
+.about-section {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.about-left {
+    width: 700px;
+
+}
+
+.about-right {
+    width: 700px;
+    padding-left: 120px;
+
+}
+
+.workout-image {
+    display: flex;
+    margin: 20px;
+}
+
+.workout-image img {
+    width: 350px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+}
+
+.workout-section {
+    width: 750px;
+    height: 250px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.btn-padding {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+.btn-padding :hover {
+    background-color: navy;
+}
+
+
+.service-box {
+
+
+
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.service-img {
+    height: 300px;
+}
+
+.box-1 {
+    height: 500px;
+    width: 350px;
+    padding: 20px 40px;
+    border: 1px solid gray;
+    box-shadow: 8px 8px 16px gray;
+    margin-left: 50px;
+
+
+}
+
+.box-2 {
+    height: 500px;
+    width: 350px;
+    padding: 20px 40px;
+    border: 1px solid gray;
+    box-shadow: 8px 8px 16px gray;
+    margin-left: 50px;
+}
+
+.box-3 {
+    height: 500px;
+    width: 350px;
+    padding: 20px 40px;
+    border: 1px solid gray;
+    box-shadow: 8px 8px 16px gray;
+    margin-left: 50px;
+}
+
+.red-color {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box-footer {
+    display: flex;
+
+}
+
+.footer-design {
+    margin-top: 150px;
+    width: 80%;
+}
+
+.footer-heading {
+    color: red;
+    padding-left: 150px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 70px;
+    font-size: 22px;
 }
